@@ -7,7 +7,7 @@ function love.conf(t)
         landscaperight = true,
     }
     t.identity = "giraffe"
-    t.version = "0.9.1"
+    t.version = "11.5"
     t.console = false
     t.window.title = "oh my giraffe"
     t.window.icon = nil
@@ -24,7 +24,7 @@ function love.conf(t)
     t.modules.event = true
     t.modules.graphics = true
     t.modules.image = true
-    t.modules.joystick = false
+    t.modules.joystick = true
     t.modules.keyboard = true
     t.modules.math = true
     t.modules.mouse = true

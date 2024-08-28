@@ -407,7 +407,7 @@ function game:config(w, h, density)
 
 	local w = w or lg.getWidth()
 	local h = h or lg.getHeight()
-	local density = density or lw.getPixelScale()
+	local density = density or lw.getDPIScale()
 
 	-- using w, h, and scale, find the correct point in config
 
